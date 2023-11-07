@@ -1,0 +1,11 @@
+.footer{
+    background: black;
+    color: azure;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 1rem;
+    position:relative;
+        left: 0;
+        bottom: 0;
+        right: 0;
+}

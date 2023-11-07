@@ -1,0 +1,32 @@
+.register-container{
+    background: #99004d;
+    color: white;
+    width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+}
+.register-container h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.register-container .form-md button{
+    color: #99004d;
+}
+
+.register-container p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width:600px){
+    .register-container{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+}

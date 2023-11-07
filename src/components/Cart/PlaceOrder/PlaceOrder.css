@@ -1,0 +1,25 @@
+.place-order{
+    text-align: right;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.place-order h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.place-order button{
+    background: #ff3300;
+    color: azure;
+    width: auto;
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.place-order button:hover{
+    background: darkslategray;
+    transition: ease-in-out 500ms;
+}

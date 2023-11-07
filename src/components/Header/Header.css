@@ -1,0 +1,52 @@
+.header-nav{
+    background: whitesmoke;
+    font-size: 1.3rem;
+    position: sticky;
+    top: 0;
+}
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list h2{
+    font-family: cursive;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.btn-logout{
+    background: #ff3300;
+    color: azure;
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 0.1rem;
+    cursor: pointer;
+}
+
+.btn-logout:hover{
+    background: darkslategrey;
+    transition: ease-in-out 700ms;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px){
+    .header-nav{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .header-list{
+        display: block;
+    }
+    .header-list h2{
+        font-size: 1rem;
+    }
+    
+}
