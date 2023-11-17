@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000'
+const baseUrl = 'http://54.82.121.210'
 
 export const Constants = {
     baseUrl,
